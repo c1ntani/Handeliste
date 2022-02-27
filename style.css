@@ -44,3 +44,44 @@ h3 {
 .test {
   background-color: yellow;
 }
+
+.error {
+  background-color: #e57373;
+  color: #fff;
+}
+
+.success {
+  background-color: #4db6ac;
+  color: #fff;
+}
+
+#message {
+  text-align: center;
+  padding-top: 3px;
+  vertical-align: middle;
+}
+
+input {
+  padding: 10px 5px;
+  font-size: 1em;
+}
+
+#submit-button {
+  background-color: #006064;
+  color: #fff;
+}
+
+i {
+  color: #006064;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+  font-family: "Abril Fatface", cursive;
+  color: #006064;
+}
+
+.cost {
+  color: #b71c1c;
+}

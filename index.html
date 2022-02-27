@@ -18,34 +18,56 @@
         </div>
         <ul id="product-list"></ul>
 
-        <div id="menu">
-          <div class="grid-container">
-                <p class="title1">Produkt</p>
-                <p class="title2">Antall</p>
-                <p class="title3">Pris (NOK)</p>
-                <input type="text" id="name" placeholder="Legg til vare" />
-                <input
-                class="amountInput"
-                type="number"
-                name="quantity"
-                min="1"
-                max="100"
-                step="1"
-                />
-                <input
-                class="priceInput"
-                type="number"
-                name="quantity"
-                min="1"
-                max="10000"
-                />
-                <button class="test">test</button>
+        <h3>Må kjøpe</h3>
+        <div class="container">
+          <form id="product-form">
+            <div class="row">
+              <label for="item">Varer</label>
+              <input class="priceInput" id="item" placeholder="Legg til vare" />
+              <label for="item">Pris</label>
+              <input class="priceInput" id="amount" placeholder="kr" />
             </div>
-        </div>
+            <div class="priceInput" id="message"></div>
+            <input
+              type="submit"
+              value="Legg til"
+              id="submit-button"
+              class="btn priceInput"
+            />
+            <table class="priceInput">
+              <tbody id="grocery-list"></tbody>
+              <tr>
+                <td class="nine columns"><str>Total pris</str></td>
+                <td class="total three columns"><str>kr</str></td>
+              </tr>
+            </table>
+          </form>
         </div>
       </div>
     </div>
     <script src="script.js"></script>
-    <button onclick="addGrocery()">Legg til</button>
   </body>
 </html>
+
+<!--        <div id="menu">
+          <div class="grid-container">
+            <p class="title1">Produkt</p>
+            <p class="title2">Antall</p>
+            <p class="title3">Pris (NOK)</p>
+            <input type="text" id="name" placeholder="Legg til vare" />
+            <input
+              class="amountInput"
+              type="number"
+              name="quantity"
+              min="1"
+              max="100"
+              step="1"
+            />
+            <input
+              class="priceInput"
+              type="number"
+              name="quantity"
+              min="1"
+              max="10000"
+            />
+            <button class="test">test</button>-->
