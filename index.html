@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handelist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="product-container">
+      <div class="groceries">
+        <h1>Handleliste</h1>
+        <h3>Hva jeg allerede har</h3>
+        <div id="product-container">
+          <input type="text" id="product-input" placeholder="Legg til vare" />
+          <button onclick="addProduct()">Legg til</button>
+        </div>
+        <ul id="product-list"></ul>
+
+        <div id="menu">
+          <div class="grid-container">
+                <p class="title1">Produkt</p>
+                <p class="title2">Antall</p>
+                <p class="title3">Pris (NOK)</p>
+                <input type="text" id="name" placeholder="Legg til vare" />
+                <input
+                class="amountInput"
+                type="number"
+                name="quantity"
+                min="1"
+                max="100"
+                step="1"
+                />
+                <input
+                class="priceInput"
+                type="number"
+                name="quantity"
+                min="1"
+                max="10000"
+                />
+                <button class="test">test</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <button onclick="addGrocery()">Legg til</button>
+  </body>
+</html>

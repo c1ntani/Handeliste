@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 10px;
+}
+
+#product-container {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.groceries {
+  border: 1px solid black;
+  width: 600px;
+  min-height: 100vh;
+  margin: auto;
+  background: lightgray;
+  box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 50px auto;
+  grid-gap: 10px 50px;
+  padding: 10px;
+}
+
+.test {
+  background-color: yellow;
+}
